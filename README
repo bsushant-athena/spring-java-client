@@ -1,0 +1,4 @@
+eureka-client = the old spring java client
+gateway-client = newly modified client with auth >> this one we are publishing to artifactory
+gateway-client-sample = an app which is using gateway-client >> from this one we are creating an docker image
+

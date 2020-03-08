@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "apiVersion": "1.0.0",
+    "description": "This is a java microservice that is used by api-gateway team for internal testing of java sdk!",
+    "serviceName": "simple-java-client"
+  },
+  "version": "1.0.0",
+  "spec": {
+    "scopes": [
+      {
+        "scope": "athena/service/Gateway.User.*",
+        "patterns": [
+          {
+            "pattern": "/*",
+            "methods": ["GET", "POST", "PUT", "DELETE"]
+          }
+        ]
+      }
+    ]
+  }
+}

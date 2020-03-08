@@ -1,0 +1,23 @@
+{
+  "status": "dev",
+  "service": {
+    "name": "simple-java-client",
+    "suite": "gateway",
+    "domain": "athena.io",
+    "urlScheme": "https"
+  },
+  "contacts": {},
+  "notifications": {
+    "events": {}
+  },
+  "appFabric": {
+    "version": 1
+  },
+  "dataFabric": {},
+  "environments": {},
+  "displayName": "API Gateway Java",
+  "description": "This is a java microservice that is used by api-gateway team for internal testing of java sdk!",
+  "applicationId": "c4b99c78-3452-4881-94df-db6c02a305e4",
+  "teamId": 17,
+  "type": "microservice"
+}
